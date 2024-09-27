@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="/main css/footer.css">
+  <link rel="stylesheet" href="/main css/nav.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <style>
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div>
+          <img class="pic" src="/Main Pictures/LOGO.png" alt="">
+      </div>
+      <div class="logo">
+          Healthy Ceylon
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Student 02/Home Page/Home.html">Home</a></li>
+        <li><a href="/Student 01/Shop/shop.html">Products</a></li>
+        <li><a href="/Student 04/Gallery/gallery.html">Gallery</a></li>
+        <li><a href="/Student 02/Form/form.html" >Feedback</a></li>
+        <li><a href="#" class="active">User Profile</a></li>
+        <li><a href="/Student 04/Site Map/sitemap.html">Site Map</a></li>
+        <li><a href="/Student 03/Team Page/team.html">About Us</a></li>
+      </ul>
+  </nav>
+  </header>
+  <div class="box">   
+  <h1>User Profile</h1>
+
+  <p class="welcome-text"></p>
+  
+  <!-- Progress Bar -->
+  <div class="progress">
+    <div id="progress-bar"></div>
+    <div id="progress-text"></div>
+  </div>
+  
+  <center><button id="start-button">Start</button></center>
+
+  
+    <!-- Collecting User's personal details -->
+  <center><div class="">
+    <div id="personal-details" style="display: none;">
+      <h2>Step 1 : Personal Details</h2>
+      <p>Name: <span id="name"></span></p>
+      <p>Address: <span id="address"></span></p>
+      <p>Age: <span id="age"></span></p>
+      <p>Gender (M/F): <span id="gender"></span></p>
+      <button onclick="validateAndShowExperienceForm()" id="details-next-button">Next</button>
+    </div>
+  </div></center>
+
+  <!-- Collecting User's volunteering experience -->
+  <center><div class="">
+    <div id="volunteering-experience" style="display: none;">
+      <h2>Step 2 : Volunteering Experience</h2>
+      <p>Task: <span id="task"></span></p>
+      <p>Experience (Years): <span id="experience"></span></p>
+      <p>Specification: <span id="specification"></span></p>
+      <button id="volunteering-next-button">Next </button>
+    </div>
+  </div></center>
+
+  <!-- Collecting User's qualification -->
+  <center><div class="">
+    <div id="donation" style="display: none;">
+      <h2>Step 3 : Blood Donation Detail</h2>
+      <p>Blood Group: <span id="bloodgroup"></span></p>
+      <p>Blood Donation Times: <span id="times"></span></p>
+      <p>Whight: <span id="whight"></span></p>
+      <button id="donation-next-button">Next </button>
+    </div>
+  </div></center>
+
+  <!-- Collecting User's emergency contact -->
+  <center><div id="availability" style="display: none;">
+    <h2>Step 4 : Availability</h2>
+    <p>Contact Number: <span id="contactnumber"></span></p>
+    <p>Email: <span id="availabilityemail"></span></p>
+    <button id="availability-submit-button" ><a href="/Student 02/healthyCeylon.html">Submit</a></button>
+  </div></center>
+    
+  </div> 
+  <footer>
+    <div class="footer-content">
+        <img src="/Main Pictures/LOGO.png" alt="Logo" style="height: 200px;">
+        <h5 class="change"><a href="healthyCeylon.html"></a>Healthy Ceylon</h5>
+        <ul class="socialmedia">
+            <li><a href="#"><i class='bx bxl-instagram'></i></i></a></li>
+            <li><a href="#"><i class='bx bxl-facebook-circle' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-whatsapp' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-linkedin-square' ></i></a></li>
+            <li><a href="/Student 01/Editor Info/umesh.html" target="_blank"><i class='bx bx-edit'></i></a></li>
+            
+        </ul>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &copy;2024 Healthy Ceylon. Designed by <span>Gunanesan Saranujan</span></p>
+    </div>    
+</footer>
+  <script src="profile.js"></script>
+</body>
+
+</html>

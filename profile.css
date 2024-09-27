@@ -1,0 +1,89 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: #dad7cd; /* Set a light background color */
+  margin: 0; 
+  padding: 15px; /* Remove default padding */
+  bottom: 0;
+  height: 36px;
+  
+}
+
+
+h1 {
+  text-align: center;
+  color: #333; /* Set heading color */
+}
+
+p {
+  color: #666; /* Set paragraph text color */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px; /* Add padding to buttons */
+  background-color:#3A5A40 (47, 175, 255); /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius to buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #001eb3; /* Darken button background color on hover */
+}
+
+#personal-details,
+#volunteering-experience,
+#donation,
+#availability {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff; /* Set background color for form sections */
+  padding: 20px; /* Add padding to form sections */
+  border-radius: 5px; /* Add border radius to form sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect to form sections */
+}
+
+
+.progress {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px; /* Add some space below progress bar */
+  border-radius: 5px; /* Add border radius to progress bar */
+  overflow: hidden; /* Hide overflow */
+}
+
+#progress-bar {
+  height: 20px;
+  background-color: #4caf50;
+  width: 0%;
+  transition: width 0.5s ease; /* Smooth transition for progress bar width */
+}
+
+#progress-text {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#display-area {
+  margin-top: 20px;
+}
+
+#cent {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 2000px;
+}
+#start-button{
+  background-color: #4caf50;
+  margin-bottom: 20px;
+}
+#start-button:hover{
+  background-color: #2d8230;
+}
+footer .footer-bottom p{
+  color: black;
+}
